@@ -2,6 +2,18 @@
 
 This project was generated with the [Dojo CLI](https://github.com/dojo/cli) & [Dojo CLI create app command](https://github.com/dojo/cli-create-app).
 
+Testing a BTR issue. If you provide an anchor tag without a protocol, like this:
+
+```tsx
+<a href="twitter.com">twitter link</a>
+```
+
+Dojo BTR throws an unhandled Promise reject error with a message of:
+
+```bash
+Build Time Render Error (path: "twitter.com"): Failed to visit path
+```
+
 ## Build
 
 Run `npm run build` or `dojo build --mode dist` (the `mode` option defaults to `dist`) to create a production build for the project. The built artifacts will be stored in the `output/dist` directory.
