@@ -1,0 +1,11 @@
+{
+	"build-app": {
+		"build-time-render": {
+			"root": "root",
+			"renderer": "jsdom"
+		}
+	},
+	"test-intern": {},
+	"create-app": {},
+	"create-widget": {}
+}
